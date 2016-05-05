@@ -1,5 +1,5 @@
 # Native Code Cordova Plugin
-Easily add nattive code to your cordova project.
+Easily add native code to your cordova project.
 The content of `native/android` directory will be compiled as a project module.
 
 ## Platform Support
