@@ -1,0 +1,15 @@
+{
+  "name": "cordova-plugin-native-code",
+  "version": "1.0.0",
+  "description": "Easily extend your hybrid app with Native Code",
+  "repository": {
+    "type": "git",
+    "url": "https://appverse.gftlabs.com/git/scm/devltools/cordova-plugin-native-code.git"
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "jordi.murgo@gft.com",
+  "license": "Appverse Public License Version 2.0"
+}

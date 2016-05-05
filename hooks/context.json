@@ -1,0 +1,480 @@
+{
+    "hook": "after_build",
+    "opts": {
+        "platforms": [
+            "android"
+        ],
+        "options": {
+            "release": true,
+            "argv": {
+                "argv": {
+                    "remain": [],
+                    "cooked": [],
+                    "original": []
+                }
+            }
+        },
+        "verbose": false,
+        "silent": false,
+        "browserify": false,
+        "nohooks": [],
+        "projectRoot": "/Users/customerexperiencelivinglab/git/plugins/runtime-showcase",
+        "cordova": {
+            "platforms": [
+                "android"
+            ],
+            "plugins": [
+                "cordova-plugin-battery-status",
+                "cordova-plugin-console",
+                "cordova-plugin-core-security",
+                "cordova-plugin-device",
+                "cordova-plugin-device-motion",
+                "cordova-plugin-dialogs",
+                "cordova-plugin-globalization",
+                "cordova-plugin-inappbrowser",
+                "cordova-plugin-network-information",
+                "cordova-plugin-splashscreen",
+                "cordova-plugin-sslcertificatechecker",
+                "cordova-plugin-statusbar",
+                "cordova-plugin-trusted-device",
+                "cordova-plugin-vibration",
+                "cordova-plugin-whitelist",
+                "cordova-plugin-x-toast",
+                "ionic-plugin-keyboard"
+            ],
+            "version": "6.1.1"
+        },
+        "paths": [
+            "/Users/customerexperiencelivinglab/git/plugins/runtime-showcase/platforms/android/assets/www"
+        ],
+        "plugin": {
+            "id": "cordova-plugin-core-security",
+            "pluginInfo": {
+                "filepath": "/Users/customerexperiencelivinglab/git/plugins/runtime-showcase/plugins/cordova-plugin-core-security/plugin.xml",
+                "dir": "/Users/customerexperiencelivinglab/git/plugins/runtime-showcase/plugins/cordova-plugin-core-security",
+                "_et": {
+                    "_root": {
+                        "_id": 5427,
+                        "tag": "plugin",
+                        "attrib": {
+                            "id": "cordova-plugin-core-security",
+                            "version": "1.0.0",
+                            "xmlns": "http://apache.org/cordova/ns/plugins/1.0",
+                            "xmlns:android": "http://schemas.android.com/apk/res/android"
+                        },
+                        "text": "\n    ",
+                        "tail": null,
+                        "_children": [
+                            {
+                                "_id": 5428,
+                                "tag": "name",
+                                "attrib": {},
+                                "text": "cordova-plugin-core-security",
+                                "tail": "\n    ",
+                                "_children": []
+                            },
+                            {
+                                "_id": 5429,
+                                "tag": "description",
+                                "attrib": {},
+                                "text": "CoreSecurity Plugin (crypted assets, antitampering/debugger traps)",
+                                "tail": "\n\n    ",
+                                "_children": []
+                            },
+                            {
+                                "_id": 5430,
+                                "tag": "license",
+                                "attrib": {},
+                                "text": "MPL",
+                                "tail": "\n    \n    ",
+                                "_children": []
+                            },
+                            {
+                                "_id": 5431,
+                                "tag": "engines",
+                                "attrib": {},
+                                "text": "\n        ",
+                                "tail": "\n    ",
+                                "_children": [
+                                    {
+                                        "_id": 5432,
+                                        "tag": "engine",
+                                        "attrib": {
+                                            "name": "cordova",
+                                            "version": ">=5.0.0"
+                                        },
+                                        "text": "",
+                                        "tail": "\n    ",
+                                        "_children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": 5433,
+                                "tag": "js-module",
+                                "attrib": {
+                                    "src": "www/inc/coreSecurity/js/coreSecurity.js",
+                                    "name": "coreSecurity"
+                                },
+                                "text": "\n        ",
+                                "tail": "\n    \n    \n    ",
+                                "_children": [
+                                    {
+                                        "_id": 5434,
+                                        "tag": "clobbers",
+                                        "attrib": {
+                                            "target": "coreSecurity"
+                                        },
+                                        "text": "",
+                                        "tail": "\n    ",
+                                        "_children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": 5435,
+                                "tag": "platform",
+                                "attrib": {
+                                    "name": "ios"
+                                },
+                                "text": "\n        ",
+                                "tail": "\n\n    \n    ",
+                                "_children": [
+                                    {
+                                        "_id": 5436,
+                                        "tag": "config-file",
+                                        "attrib": {
+                                            "target": "config.xml",
+                                            "parent": "/*"
+                                        },
+                                        "text": "\n            ",
+                                        "tail": "\n\n        ",
+                                        "_children": [
+                                            {
+                                                "_id": 5437,
+                                                "tag": "feature",
+                                                "attrib": {
+                                                    "name": "CoreSecurity"
+                                                },
+                                                "text": "\n                ",
+                                                "tail": "\n            ",
+                                                "_children": [
+                                                    {
+                                                        "_id": 5438,
+                                                        "tag": "param",
+                                                        "attrib": {
+                                                            "name": "ios-package",
+                                                            "value": "CoreSecurityPlugin"
+                                                        },
+                                                        "text": "",
+                                                        "tail": "\n                ",
+                                                        "_children": []
+                                                    },
+                                                    {
+                                                        "_id": 5439,
+                                                        "tag": "param",
+                                                        "attrib": {
+                                                            "name": "onload",
+                                                            "value": "true"
+                                                        },
+                                                        "text": "",
+                                                        "tail": "\n            ",
+                                                        "_children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_id": 5440,
+                                                "tag": "access",
+                                                "attrib": {
+                                                    "origin": "https://localhost/*"
+                                                },
+                                                "text": "",
+                                                "tail": "\n            ",
+                                                "_children": []
+                                            },
+                                            {
+                                                "_id": 5441,
+                                                "tag": "allow-navigation",
+                                                "attrib": {
+                                                    "href": "https://localhost/*"
+                                                },
+                                                "text": "",
+                                                "tail": "\n            ",
+                                                "_children": []
+                                            },
+                                            {
+                                                "_id": 5442,
+                                                "tag": "allow-intent",
+                                                "attrib": {
+                                                    "href": "https://localhost/*"
+                                                },
+                                                "text": "",
+                                                "tail": "\n        ",
+                                                "_children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_id": 5443,
+                                        "tag": "header-file",
+                                        "attrib": {
+                                            "src": "src/ios/CoreSecurityPlugin.h"
+                                        },
+                                        "text": "",
+                                        "tail": "\n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5444,
+                                        "tag": "source-file",
+                                        "attrib": {
+                                            "src": "src/ios/CoreSecurityPlugin.m"
+                                        },
+                                        "text": "",
+                                        "tail": "\n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5445,
+                                        "tag": "header-file",
+                                        "attrib": {
+                                            "src": "src/ios/FBEncryptorAES.h"
+                                        },
+                                        "text": "",
+                                        "tail": "\n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5446,
+                                        "tag": "source-file",
+                                        "attrib": {
+                                            "src": "src/ios/FBEncryptorAES.m"
+                                        },
+                                        "text": "",
+                                        "tail": "\n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5447,
+                                        "tag": "header-file",
+                                        "attrib": {
+                                            "src": "src/ios/CryptProtocol.h"
+                                        },
+                                        "text": "",
+                                        "tail": "\n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5448,
+                                        "tag": "source-file",
+                                        "attrib": {
+                                            "src": "src/ios/CryptProtocol.m"
+                                        },
+                                        "text": "",
+                                        "tail": "\n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5449,
+                                        "tag": "header-file",
+                                        "attrib": {
+                                            "src": "src/ios/UIApplication+BSMobileProvision.h"
+                                        },
+                                        "text": "",
+                                        "tail": "\n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5450,
+                                        "tag": "source-file",
+                                        "attrib": {
+                                            "src": "src/ios/UIApplication+BSMobileProvision.m"
+                                        },
+                                        "text": "",
+                                        "tail": "\n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5451,
+                                        "tag": "resource-file",
+                                        "attrib": {
+                                            "src": "src/ios/cdata.bundle"
+                                        },
+                                        "text": "",
+                                        "tail": "\n\n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5452,
+                                        "tag": "hook",
+                                        "attrib": {
+                                            "type": "after_prepare",
+                                            "src": "hooks/after_prepare.js"
+                                        },
+                                        "text": "",
+                                        "tail": "\n\n    ",
+                                        "_children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "_id": 5453,
+                                "tag": "platform",
+                                "attrib": {
+                                    "name": "android"
+                                },
+                                "text": "\n        ",
+                                "tail": "\n\n",
+                                "_children": [
+                                    {
+                                        "_id": 5454,
+                                        "tag": "config-file",
+                                        "attrib": {
+                                            "parent": "/*",
+                                            "target": "res/xml/config.xml"
+                                        },
+                                        "text": "\n            ",
+                                        "tail": "\n\n        ",
+                                        "_children": [
+                                            {
+                                                "_id": 5455,
+                                                "tag": "feature",
+                                                "attrib": {
+                                                    "name": "CoreSecurity"
+                                                },
+                                                "text": "\n                ",
+                                                "tail": "\n            ",
+                                                "_children": [
+                                                    {
+                                                        "_id": 5456,
+                                                        "tag": "param",
+                                                        "attrib": {
+                                                            "name": "android-package",
+                                                            "value": "org.appverse.cordova.plugins.coresecurity.CoreSecurityPlugin"
+                                                        },
+                                                        "text": "",
+                                                        "tail": "\n                ",
+                                                        "_children": []
+                                                    },
+                                                    {
+                                                        "_id": 5457,
+                                                        "tag": "param",
+                                                        "attrib": {
+                                                            "name": "onload",
+                                                            "value": "true"
+                                                        },
+                                                        "text": "",
+                                                        "tail": "\n            ",
+                                                        "_children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "_id": 5458,
+                                                "tag": "access",
+                                                "attrib": {
+                                                    "origin": "https://localhost/*"
+                                                },
+                                                "text": "",
+                                                "tail": "\n            ",
+                                                "_children": []
+                                            },
+                                            {
+                                                "_id": 5459,
+                                                "tag": "allow-navigation",
+                                                "attrib": {
+                                                    "href": "https://localhost/*"
+                                                },
+                                                "text": "",
+                                                "tail": "\n            ",
+                                                "_children": []
+                                            },
+                                            {
+                                                "_id": 5460,
+                                                "tag": "allow-intent",
+                                                "attrib": {
+                                                    "href": "https://localhost/*"
+                                                },
+                                                "text": "",
+                                                "tail": "\n        ",
+                                                "_children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "_id": 5461,
+                                        "tag": "config-file",
+                                        "attrib": {
+                                            "parent": "/*",
+                                            "target": "AndroidManifest.xml"
+                                        },
+                                        "text": "\n        ",
+                                        "tail": "\n       \n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5462,
+                                        "tag": "source-file",
+                                        "attrib": {
+                                            "src": "src/android/src/org/appverse/cordova/plugins/coresecurity/CoreSecurityPlugin.java",
+                                            "target-dir": "src/org/appverse/cordova/plugins/coresecurity"
+                                        },
+                                        "text": "",
+                                        "tail": "                    \n\n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5463,
+                                        "tag": "framework",
+                                        "attrib": {
+                                            "src": "src/android/CoreSecurityLib",
+                                            "custom": "true"
+                                        },
+                                        "text": "",
+                                        "tail": "\n        \n        \n        \n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5464,
+                                        "tag": "hook",
+                                        "attrib": {
+                                            "type": "after_prepare",
+                                            "src": "hooks/after_prepare.js"
+                                        },
+                                        "text": "",
+                                        "tail": "\n        ",
+                                        "_children": []
+                                    },
+                                    {
+                                        "_id": 5465,
+                                        "tag": "hook",
+                                        "attrib": {
+                                            "type": "after_build",
+                                            "src": "hooks/after_build.js"
+                                        },
+                                        "text": "",
+                                        "tail": "\n\n    ",
+                                        "_children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "id": "cordova-plugin-core-security",
+                "version": "1.0.0",
+                "name": "cordova-plugin-core-security",
+                "description": "CoreSecurity Plugin (crypted assets, antitampering/debugger traps)",
+                "license": "MPL"
+            },
+            "dir": "/Users/customerexperiencelivinglab/git/plugins/runtime-showcase/plugins/cordova-plugin-core-security"
+        }
+    },
+    "cmdLine": "/usr/local/bin/node /usr/local/bin/cordova build android --release",
+    "cordova": {
+        "binname": "cordova",
+        "raw": {}
+    },
+    "scriptLocation": "/Users/customerexperiencelivinglab/git/plugins/runtime-showcase/plugins/cordova-plugin-core-security/hooks/after_build.js"
+}
